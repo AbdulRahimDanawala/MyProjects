@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+       
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            background-color: black;
+            height: 30vh;
+            width: 100vw;
+        }
+
+        .icon {
+            width: 65px;
+            height: 65px;
+            margin: 30px;
+            cursor: pointer;
+            border-radius: 50px;
+            transition: all.4s;
+        }
+
+        .icon:nth-child(1):hover {
+            box-shadow: 0px 0px 10px 10px #1877f2;
+            background-image: url(../facebook.png);
+            background-repeat: round;
+
+        }
+
+        .icon:nth-child(2):hover {
+            box-shadow: 0px 0px 10px 10px #c32aa3;
+            background-image: url(../instagram.png);
+            background-repeat: round ;
+        }
+
+        .icon:nth-child(3):hover {
+            box-shadow: 0px 0px 10px 10px #25d366;
+            background-image: url(../whatsapp.png);
+            background-repeat: round ;
+
+        }
+
+        .icon:nth-child(4):hover {
+            box-shadow: 0px 0px 10px 10px #1da1f2;
+            background-image: url(../twitter.png);
+            background-repeat: round ;
+        }
+
+        .fa-facebook-fa {
+            color: goldenrod;
+            filter: drop-shadow(0px 0px 10px #1877f2);
+        }
+
+        .fa-instagram {
+            color: goldenrod;
+            filter: drop-shadow(0px 0px 10px #c32aa3);
+        }
+
+        .fa-whatsapp {
+            color: goldenrod;
+            filter: drop-shadow(0px 0px 10px #25d366);
+        }
+
+        .fa-twitter {
+            color: goldenrod;
+            filter: drop-shadow(0px 0px 10px #1da1f2);
+        }
+        #container{
+            position: absolute;
+            bottom:0vh;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div class="main center">
+            <div class="icon center">
+                <i class="fab fa-facebook-fa fa-2x">Facebook</i>
+            </div>
+            <div class="icon center">
+                <i class="fab fa-instagram fa-2x">Instagram</i>
+            </div>
+            <div class="icon center">
+                <i class="fab fa-whatsapp fa-2x">Whatsapp</i>
+            </div>
+            <div class="icon center">
+                <i class="fab fa-twitter fa-2x">Twitter</i>
+            </div>
+    
+    
+    
+        </div>
+    </div>
+
+</body>
+
+</html>
